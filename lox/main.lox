@@ -1,0 +1,7 @@
+// Your first Lox program!
+print "Hello, world!";
+
+var breakfast = "bagels";
+print breakfast; // "bagels".
+breakfast = "beignets";
+print breakfast; // "beignets".

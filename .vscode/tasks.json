@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build clox",
+      "type": "shell",
+      "command": "make",
+      "options": {
+        "cwd": "${workspaceFolder}/clox"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "clean clox",
+      "type": "shell",
+      "command": "make clean",
+      "options": {
+        "cwd": "${workspaceFolder}/clox"
+      }
+    }
+  ]
+}

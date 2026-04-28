@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "name": "WSL",
+      "compilerPath": "/usr/bin/gcc",
+      "intelliSenseMode": "linux-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/clox/src",
+        "${workspaceFolder}/clox/include",
+        "/usr/include"
+      ],
+      "cStandard": "c17",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}
